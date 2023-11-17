@@ -2,17 +2,23 @@
 import './App.css';
 
 import React, { Component } from 'react'
+import Navbar from './component/Navbar';
+import News from './component/News';
+
 
 export default class App extends Component {
-  c = "diya"
+
   render() {
     return (
       <div>
-      hello this is {this.c}
+    <Navbar/>
+    <News/>
+   
       </div>
     )
   }
 }
+
 
 
 
